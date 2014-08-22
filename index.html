@@ -5,29 +5,43 @@
   <meta content="authenticity_token" name="csrf-param" />
 <meta content="xZDSMBvf7XF5cG0LwE3tljNZaIDJp/GIzrMM8YMqymI=" name="csrf-token" />
 <link rel="stylesheet" type="text/css" href="groupize.css">
+<link href="images/favicon-93a4653af32ae68e2548168de3df642a.jpg" rel="icon" type="image/jpg" />
 </head>
 <body>
-  <header>
-    <header class="header">
+  <header id="page-header">  
   <div>
-    <a href="/">
-      <h1 class="logo" data-role="logo">Snack Logo</h1>
-</a></div></header>
-  </header>
+	  <img src="images/snacks_banner.png" alt="Snacks Logo">	  
+</div>
+</header>
+  
+  <!--<nav class="vertical">
+    <ul>
+      <li>
+        <a href="https://www.groupize.com/">Home</a>
+	  </li>
+	   <li>
+        <a href="index.html">Snacks</a>
+	  </li>
+	   <li>
+        <a href="#">App</a>
+	  </li>
+	</ul>
+</nav>-->
 
-<h1>Kitchen Snack Central</h1>
+  
+  <div id="page-container">
+  
+<h1 id="page-title">Kitchen Snack Central</h1>
 <p>These are the snacks we keep in the company kitchen. Enjoy!</p>
-<span>Don't see anything you like?</span>
-<a href="/snacks/new">Request a New Snack</a>
 
-<table>
+<table class="reference">
   <thead>
-    <th>
-      <td></td>
-      <td>Time to next refill</td>
-      <td>Calories</td>
-      <td>About</td>
-    </th>
+	<tr>
+      <th></th>
+      <th>Time to next refill</th>
+      <th>Calories</th>
+      <th>About</th>
+	  </tr>
   </thead>
   <tbody>
       <tr>
@@ -56,7 +70,16 @@
       </tr>
   </tbody>
 </table>
+<p>Don't see anything you like?
+<a href="/snacks/new">Request a New Snack</a></p>
 
+ <footer id="page-footer">  
+  <div>
+	  <small>&copy; 2014 groupize. All Rights Reserved</small>  
+</div>
+</footer>
+
+</div>
 
 </body>
 </html>

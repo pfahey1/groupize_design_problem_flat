@@ -1,0 +1,140 @@
+body{
+background-color: #fffff ;
+}
+
+p
+{
+ text-align:center;
+ }
+ 
+  a:hover,a:active, a:hover
+{
+	color:#EE872A;
+}
+ 
+#page-title
+{
+	text-align:center;
+}
+
+table.reference{
+	border-collapse:collapse;
+	width:70%;
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+table.reference tr:nth-child(odd)	{background-color:#f1f1f1;}
+table.reference tr:nth-child(even)	{background-color:#ffffff;}
+
+table.reference th{
+	color:#ffffff;
+	background-color:#333433;
+	border:1px solid  #d4d4d4;
+	padding:3px;
+	vertical-align:middle;
+	text-align:center;
+	padding: 5px;
+}
+
+table.reference th a:link,table.reference th a:visited
+{
+	color:#ffffff;
+}
+
+table.reference th a:hover,table.reference th a:active, td a:hover
+{
+	color:#EE872A;
+}
+
+table.reference tr:hover
+{
+	background-color: #333433;
+	color:#ffffff;
+}
+
+table.reference td{
+	border:1px solid #d4d4d4;
+	padding:5px;
+	padding-top:7px;
+	padding-bottom:7px;
+	vertical-align:top;
+}
+
+
+#page-header
+{
+width:950px;
+margin-left: auto; 
+margin-right: auto;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+#page-container
+{
+	background-color:#94c04b ;
+	border-bottom-right-radius:1.5em;
+	border-bottom-left-radius:1.5em;
+	border-top-right-radius:1.5em;
+	border-top-left-radius:1.5em;
+	border:1px solid #333433;
+	width:1000px;
+	height:550px;
+	margin: 0 auto; 
+	padding-top: 10px;
+}
+
+#page-footer
+{
+ border-top-style: dotted;
+  border-top-width: 1px;
+ text-align: center;
+ padding-top: 10px;
+}
+
+
+nav.vertical {
+
+  overflow: hidden;
+  text-align: center;
+  width: 200px; 
+  float:left;
+  position:relative;
+  left:13.3%;
+}
+
+  nav.vertical > ul {
+    list-style-type: none;
+	 
+  }
+
+    nav.vertical > ul > li {
+      display: block;
+    }
+	
+	nav.vertical > ul > li > a {
+	background-color: #94c04b;
+	color: rgb(255,255,255);
+	display: block;
+	font-size: .85rem;
+	font-weight: 500;
+	height: 50px;
+	letter-spacing: .5rem;
+	line-height: 50px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.1);
+	text-transform: uppercase;
+	transition: all .1s ease;
+	text-decoration: none;
+	border:1px solid #333433;
+	  box-shadow: -0px 0px 3px 0px #333433 inset;
+}
+
+	nav.vertical > ul > li > a:hover {
+		background-color: #333433;
+		cursor: pointer;
+	}
+	
+
